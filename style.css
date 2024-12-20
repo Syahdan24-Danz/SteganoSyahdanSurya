@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f8fafc;
   color: #000000;
@@ -6,8 +12,7 @@ body {
   min-height: 100vh;
 }
 header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 1rem;
   background-color: #d9eafd;
   color: rgb(70, 75, 80);
   text-align: center;
@@ -29,6 +34,10 @@ header {
 }
 canvas {
   max-width: 100%;
+}
+.judul{
+  font-weight: bold;
+  font-size: 2em;
 }
 .nav {
   display: flex;
