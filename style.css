@@ -1,0 +1,96 @@
+body {
+  background-color: #f8fafc;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  min-height: 100vh;
+}
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #d9eafd;
+  color: rgb(70, 75, 80);
+  text-align: center;
+}
+.container-main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.container-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+canvas {
+  max-width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Gaya untuk tombol input file custom */
+.input-gambar + label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.input-gambar + label:hover {
+  background-color: #45a049;
+}
+
+.input-gambar + label:active {
+  background-color: #388e3c;
+}
+.btn {
+  cursor: pointer;
+  font-size: 2em;
+  font-weight: bold;
+}
+.h-message {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+p {
+  font-size: 1.2em;
+}
+.judul {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.nav-pills > li.active > a {
+  background-color: #4caf50 !important;
+}
+.input-gambar {
+  width: 100% !important;
+  border: 2px;
+  border-style: dotted;
+  border-color: #4caf50;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.input-gambar:hover {
+  background-color: #b2b2b2;
+}
+.input-gambar:active {
+  background-color: #b2b2b2;
+}
